@@ -3,7 +3,6 @@ import requests
 base_url = "https://secure.runescape.com/m=hiscore_oldschool/index_lite.ws?player="
 base_im_url = "https://secure.runescape.com/m=hiscore_oldschool_ironman/index_lite.ws?player="
 base_hcim_url = "https://secure.runescape.com/m=hiscore_oldschool_hardcore_ironman/index_lite.ws?player="
-# player_name = "FieryDecline"
 
 def get_player_info(name, gamemode):
     if gamemode == "normal":
